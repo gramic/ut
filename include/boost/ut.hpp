@@ -2182,7 +2182,7 @@ class steps {
               log << step;
               auto i = 0;
               const auto& ms = utility::match(pattern, step);
-              expr(TArgs{std::stoi(ms[i++])}...);
+              expr(TArgs{ms[i++]}...);
             }
             (typename type_traits::function_traits<TExpr>::args{});
           });
