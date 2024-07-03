@@ -3,3 +3,9 @@ build*
 /.vs
 /checks.json
 /.vscode
+/bazel-*
+/external
+/.cache
+/compile_commands.json
+MODULE.bazel.lock
+user.bazelrc

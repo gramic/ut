@@ -1,0 +1,7 @@
+common --enable_bzlmod
+build --incompatible_enable_cc_toolchain_resolution
+build --incompatible_strict_action_env
+build --enable_runfiles
+build --registry=https://bcr.bazel.build
+
+try-import %workspace%/user.bazelrc

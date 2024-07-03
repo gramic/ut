@@ -1,0 +1,7 @@
+module(
+    name = "boost-ext.ut",
+    version = "v2.0.1.bzl.1",
+    compatibility_level = 20001,
+)
+
+bazel_dep(name = "rules_cc", version = "0.0.9")
